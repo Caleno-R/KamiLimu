@@ -53,7 +53,7 @@ There are three primary actions you can take when it comes to interacting with o
 
 - **Fork:** The process of copying another’s code from the repository in order to modify it.
 - **Pull:** When you’ve finished making changes to someone else’s code, you can share them with the original owner via a ‘pull request’.
-- **Merge: **Owners can add new changes to their projects via a merge, and give credit to the contributors who suggested them.
+- **Merge:** Owners can add new changes to their projects via a merge, and give credit to the contributors who suggested them.
 
 ## Differences between Git and GitHub?
  | Git | Github|
@@ -72,6 +72,8 @@ There are three primary actions you can take when it comes to interacting with o
 
 
 ## The Bonus Redux Experience - Redux Made Easy
+
+![React-redux logo](reacjs-redux.png)
 
 Let's face it – state management across multiple components isn't easy. By definition, Redux is a “predictable state container for JavaScript apps.” To understand what the definition means, we need to understand each word.
 
