@@ -4,7 +4,7 @@
 Simply put, Git is an extremely popular *version control system* used on wide variety of high-profile projects. Version control refers to the process of saving different files or ‘versions’ throughout the various stages of a project. This enables developers to keep track of what has been done and return to a previous phase if they decide they want to revert some of the changes they’ve made. Linus Torvalds created Git in 2005 for the development of the Linux kernel.
 
 
-![git logo](git.png)
+![git logo](./images/git.png)
 
 To understand Git, look at the following scenarios that developers faced before:
 
@@ -43,7 +43,7 @@ And that’s it. Git is a high-quality version control system.
 ## What is GitHub?
 GitHub is designed as a Git repository hosting service. Basically, GitHub hosts Git repositories and provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. You can think of it an *online database* that allows you to keep track of and share your Git version control projects outside of your local computer/server. Unlike Git, GitHub is exclusively cloud-based.
 
-![github logo](github.png)
+![github logo](./images/github.png)
 
 GitHub repositories are by default public thus, available. Developers from across the globe can interact with and contribute to each other’s code in order to modify or improve it, which is known as ***social coding***. In a way, this makes GitHub a networking site for web professionals. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built. 
  
@@ -73,7 +73,7 @@ There are three primary actions you can take when it comes to interacting with o
 
 ## The Bonus Redux Experience - Redux Made Easy
 
-![React-redux logo](reacjs-redux.png)
+![React-redux logo](./images/reacjs-redux.png)
 
 Let's face it – state management across multiple components isn't easy. By definition, Redux is a “predictable state container for JavaScript apps.” To understand what the definition means, we need to understand each word.
 
