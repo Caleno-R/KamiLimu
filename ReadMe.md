@@ -38,6 +38,8 @@ Branching allows you to create independent local branches in your code. This mea
 
 And that’s it. Git is a high-quality version control system.
 
+
+
 ## What is GitHub?
 GitHub is designed as a Git repository hosting service. Basically, GitHub hosts Git repositories and provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. You can think of it an *online database* that allows you to keep track of and share your Git version control projects outside of your local computer/server. Unlike Git, GitHub is exclusively cloud-based.
 
@@ -66,6 +68,7 @@ There are three primary actions you can take when it comes to interacting with o
 | Git has minimal external tool configuration | GitHub has an active marketplace for tool integration |
 | Git provides a Desktop interface named Git Gui | GitHub provides a Desktop interface named GitHub Desktop |
 | Git competes with CVS, Azure DevOps Server, Subversion, Mercurial, etc | GitHub competes with GitLab, Git Bucket, AWS Code Commit, etc |
+
 
 
 ## The Bonus Redux Experience - Redux Made Easy
