@@ -73,7 +73,7 @@ There are three primary actions you can take when it comes to interacting with o
 
 ## The Bonus Redux Experience - Redux Made Easy
 
-![React-redux logo](./images/reacjs-redux.png)
+![React-redux logo](./images/reactjs-redux.png)
 
 Let's face it – state management across multiple components isn't easy. By definition, Redux is a “predictable state container for JavaScript apps.” To understand what the definition means, we need to understand each word.
 
