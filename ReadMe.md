@@ -2,6 +2,8 @@
 
 ## What is Git?
 Simply put, Git is an extremely popular *version control system* used on wide variety of high-profile projects. Linus Torvalds created Git in 2005 for the development of the Linux kernel.
+
+
 ![git logo](git.png)
 
 To understand Git, look at the following scenarios that developers faced before:
