@@ -1,5 +1,4 @@
-# An Introduction to Git and GitHub
-# *And a Bonus Feature on Redux*
+# An Introduction to Git and GitHub And a Bonus Feature on ***Redux***
 
 ## What is Git?
 Simply put, Git is an extremely popular *version control system* used on wide variety of high-profile projects. Version control refers to the process of saving different files or ‘versions’ throughout the various stages of a project. This enables developers to keep track of what has been done and return to a previous phase if they decide they want to revert some of the changes they’ve made. Linus Torvalds created Git in 2005 for the development of the Linux kernel.
@@ -69,4 +68,22 @@ There are three primary actions you can take when it comes to interacting with o
 | Git competes with CVS, Azure DevOps Server, Subversion, Mercurial, etc | GitHub competes with GitLab, Git Bucket, AWS Code Commit, etc |
 
 
-Redux is a predictable state container designed to help you write JavaScript apps that behave consistently across client, server, and native environments and are easy to test.While it’s mostly used as a state management tool with React, you can use it with any other JavaScript framework or library. It’s lightweight at 2KB (including dependencies), so you don’t have to worry about it making your application’s asset size bigger.With Redux, the state of your application is kept in a store, and each component can access any state that it needs from this store.State management is essentially a way to facilitate communication and sharing of data across components. It creates a tangible data structure to represent the state of your app that you can read from and write to. That way, you can see otherwise invisible states while you’re working with them. State management gets messy as the app gets complex. This is why you need a state management tool like Redux that makes it easier to maintain these states. When using Redux with React, states will no longer need to be lifted up. This makes it easier for you to trace which action causes any change. ALso remember that Redux makes the state predictable, is maintainable and debugging is easy in Redux.
+## The Bonus Redux Experience - Redux Made Easy
+
+Let's face it – state management across multiple components isn't easy. By definition, Redux is a “predictable state container for JavaScript apps.” To understand what the definition means, we need to understand each word.
+
+1. **State.** In programming web and mobile apps, a state represents everything combined to keep an application running. 
+2. **Predictable.** This attribute makes a state a state consistent, no matter the environment it is run in. 
+2. A **container** is a fully-encapsulated app that includes everything necessary to run. 
+
+Therefore, a **predictable state container** is a containerized app capable of remaining in a running, consistent state. Remember that with Redux, we’re talking about an application written in *JavaScript.*
+
+Redux is a predictable state container designed to help you write JavaScript apps that **behave consistently** across client, server, and native environments and are easy to test. While it’s mostly used as a state management tool with React, you can use it with any other JavaScript framework or library. It’s lightweight at 2KB (including dependencies), so you don’t have to worry about it making your application’s asset size bigger. 
+
+When working with Redux, you will need *three* main things:
+
+- **Actions:** These are objects that should have two properties the *type* and the *payload*. The type property drives how the state should change and it's always required by Redux. The payload property instead describes what should change, and might be omitted if you don't have new data to save in the store. The second principle of Redux says the only way to change the state is by sending a signal to the store. This signal is an action. So "dispatching an action" means sending out a signal to the store.
+- **Reducers:** These are functions that implement the behavior of the actions. They change the state of the app, based on the action description and the state change description. In a typical React component the local state might be mutated in place. In Redux you're not allowed to do that. The third principle of Redux (as outlined by its creator) prescribes that the state is immutable and cannot change in place. In other words the reducer must be pure. A pure function returns the exact same output for the given input. Despite this terminology reasoning about a reducer is not that hard.
+- **Store:** it brings the actions and reducers together, holding and changing the state for the whole app — there is only one store.
+
+With Redux, the state of your application is kept in a store, and each component can access any state that it needs from this store. State management is a way to facilitate communication and sharing of data across components. It creates a tangible data structure to represent the state of your app that you can read from and write to. That way, you can see otherwise invisible states while you’re working with them. State management gets messy as the app gets complex. This is why you need a state management tool like Redux that makes it easier to maintain these states. When using Redux with React, states will no longer need to be lifted up. This makes it easier for you to trace which action causes any change. 
