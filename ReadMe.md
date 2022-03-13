@@ -42,7 +42,7 @@ And that’s it. Git is a high-quality version control system.
 ## What is GitHub?
 GitHub is designed as a Git repository hosting service. Basically, GitHub hosts Git repositories and provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. You can think of it an *online database* that allows you to keep track of and share your Git version control projects outside of your local computer/server. Unlike Git, GitHub is exclusively cloud-based.
 
-![git logo](github.png)
+![github logo](github.png)
 
 GitHub repositories are by default public thus, available. Developers from across the globe can interact with and contribute to each other’s code in order to modify or improve it, which is known as ***social coding***. In a way, this makes GitHub a networking site for web professionals. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built. 
  
